@@ -40,7 +40,7 @@ to use `Surge` to create configuration with custom DNS maps.
 
 * 编译安装nginx，需要添加 [ngx_http_substitutions_filter_module](https://github.com/yaoweibin/ngx_http_substitutions_filter_module) 模块
 
-* 将`server/nginx_conf.conf`复制到nginx配置目录中，并应用该配置文件
+* 将`/server/nginx_conf.conf`复制到nginx配置目录中，并应用该配置文件
 
 * 直接运行`python server/runapi.py`即可运行开发服务器
 
